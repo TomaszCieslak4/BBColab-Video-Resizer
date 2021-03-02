@@ -1,0 +1,14 @@
+#follow-video.pip {
+  height: auto;
+  max-height: 100%;
+  width: 25rem;
+}
+
+#appshare-video.pip,
+#appshare-video-clone.pip,
+#pdf-viewer.pip,
+#whiteboard.pip,
+#whiteboard-clone.pip {
+  max-height: 18.35rem;
+  max-width: 25rem;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "BBColab Video Resizer",
+    "version": "0.0",
+    "manifest_version": 2,
+    "description": "Resizes the Blackboard Collaborate's user video.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://ca.bbcollab.com/collab/ui/session/join/*"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}
