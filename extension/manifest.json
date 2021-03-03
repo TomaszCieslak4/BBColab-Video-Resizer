@@ -1,6 +1,6 @@
 {
-    "name": "BBColab Video Resizer",
-    "version": "0.0",
+    "name": "BBCollab Video Resizer",
+    "version": "0.1",
     "manifest_version": 2,
     "description": "Resizes the Blackboard Collaborate's user video.",
     "content_scripts": [
@@ -10,7 +10,19 @@
             ],
             "css": [
                 "styles.css"
+            ],
+            "js": [
+                "js/contentScript.js"
             ]
         }
-    ]
+    ],
+    "browser_action": {        
+        "default_popup": "popup.html",
+        "default_icon": { 
+        "16": "images/16x16.png",
+        "32": "images/32x32.png",
+        "192": "images/192x192.png"
+        }
+    }
+
 }
