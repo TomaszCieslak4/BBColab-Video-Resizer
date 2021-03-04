@@ -1,11 +1,7 @@
-body {
-  --custom-width: 25rem;
-}
-
 #follow-video.pip {
   height: auto;
   max-height: 100%;
-  width: var(--custom-width);
+  width: 25em;
 }
 
 #appshare-video.pip,
@@ -14,5 +10,5 @@ body {
 #whiteboard.pip,
 #whiteboard-clone.pip {
   max-height: 18.35rem;
-  max-width: var(--custom-width);
+  max-width: 25em;
 }
